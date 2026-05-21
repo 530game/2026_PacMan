@@ -59,11 +59,8 @@ public class GameManager : MonoBehaviour {
 
 		if		(phase == GamePhase.Chase)	 { EventManager.SendBgmPlay(Bgm.Normal); }		// 배경음 변경
 		else if (phase == GamePhase.PowerUp) { EventManager.SendBgmPlay(Bgm.PowerUp); }
-
-		// 페이즈 종료 예고
 	}
 
-	// 공포 페이즈 종료 예고
 
 
 	// 점수 갱신
